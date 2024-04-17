@@ -1,5 +1,14 @@
+@font-face {
+    font-family: 'sunny_spells_basicregular';
+    src: url('../fonts/sunny_spells_basic-webfont.woff2') format('woff2'),
+         url('../fonts/sunny_spells_basic-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
 body {
     display: flex;
+    font: 1.0rem   sans-serif, Verdana, Georgia;
 }
 
 #main-pic {
@@ -15,4 +24,8 @@ body {
 #inputs {
     border: 3px;
     border-style: outset;
+}
+
+#create {
+    font-family: inherit;
 }

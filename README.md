@@ -8,3 +8,8 @@ Version 1
 - Add form and fields
 - Layout picture and form side by side
 
+Version 2
+- Modify form layout with fieldset
+- Set default font family
+- import font for later use
+
