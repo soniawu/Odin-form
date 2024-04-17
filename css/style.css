@@ -8,7 +8,10 @@
 
 body {
     display: flex;
-    font: 1.0rem   sans-serif, Verdana, Georgia;
+    font: 0.8rem   sans-serif, Verdana, Georgia;
+    padding: 0.5em;
+    letter-spacing: 0.07em;
+    line-height: 1.4; 
 }
 
 #main-pic {
@@ -19,12 +22,27 @@ body {
 #sign-in-box {
     width: 800px;
     height: 700px;
+    padding: 1em;
 }
 
 #inputs {
-    border: 3px;
+    border: 1.5px;
     border-style: outset;
+    margin: 2em 0;
+    padding: 1em;
 }
+
+#inputs fieldset {
+    border: none;
+}
+label {
+    display: block;
+}
+.input-group {
+    display: flex;
+    column-gap: 20px;
+    padding: 0;
+} 
 
 #create {
     font-family: inherit;

@@ -13,3 +13,7 @@ Version 2
 - Set default font family
 - import font for later use
 
+Version 3
+- Set labels above input box 
+- Set letter spacing and line height
+- Change fieldset layout
