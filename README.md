@@ -17,3 +17,9 @@ Version 3
 - Set labels above input box 
 - Set letter spacing and line height
 - Change fieldset layout
+
+Version 4
+- Add side bar for logo
+- Add logo image
+- Add text for logo
+- Style create button
