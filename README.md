@@ -23,3 +23,10 @@ Version 4
 - Add logo image
 - Add text for logo
 - Style create button
+
+Version 5
+- Setup selected field color
+- Setup maxlength for name
+- Setup required fields
+- Setup placeholder for inputs
+- Misc styling for fields
