@@ -71,7 +71,7 @@ body {
     border: none;
 }
 
-label {
+label, .err-msg {
     display: block;
 }
 
@@ -109,6 +109,12 @@ legend {
     font-size: 0.8em;
 }
 
-input:required:invalid {
+inputr:required:invalid {
     border-color: red;
   }
+
+.err-msg {
+    padding-top: 2px;
+    font-size: 0.8em;
+    color: red;
+}

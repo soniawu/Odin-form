@@ -30,3 +30,8 @@ Version 5
 - Setup required fields
 - Setup placeholder for inputs
 - Misc styling for fields
+
+Version 6
+- Add javascript for validation
+- Setup <form> to use js function for validation
+- Add field validations to js
