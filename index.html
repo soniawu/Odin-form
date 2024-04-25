@@ -18,13 +18,13 @@
     <div id="sign-in-box">
         <div id="description">
             <p>
-                This is not a real online service! You know you need something like this in your life
-                to help you to realize your deepest dreams. <br><br>
+                This is the Newtown community gardening web. You can share your seeds, 
+                experiences and funs with your neighbors here. <br><br>
                 Signup now to get started.
               </p>
         </div>
 
-            <form name="signup-form" onsubmit="return validateForm()">
+            <form name="signup-form" action="/" onsubmit="return validateForm()">
                 <div id="inputs">
 
                     <fieldset class="input-group">
@@ -97,10 +97,11 @@
                 </div>
 
                 <button type="submit" id="create">Create Account</button>
+                <div id="submit-success" data-submit=""><p>Account succesfully created!</p></div>
 
             </form>
-            <p>Already have an account? Log in</p>
-            <p>refer to this site <a href="https://www.geeksforgeeks.org/form-validation-using-javascript/">form vlidation</a></p>
+            <p>Already have an account?<a id="login" href="#"><span>    Login</span></a></p>
+            
     </div>
 
     <script src="js/validation.js"></script>

@@ -35,3 +35,9 @@ Version 6
 - Add javascript for validation
 - Setup <form> to use js function for validation
 - Add field validations to js
+
+Version 7
+- Replace font "sunny_spells_basicregular" by "gardenmedium"
+- Change wording for description.
+- Set up "Account successfully created" message after form validated
+- Add style to "Log in" when user has account
