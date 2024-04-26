@@ -41,3 +41,18 @@ Version 7
 - Change wording for description.
 - Set up "Account successfully created" message after form validated
 - Add style to "Log in" when user has account
+
+Version 8
+- Add phone validation
+- Remove some unused codes
+
+Final notes:
+
+This should meet the basic requirement of the project. It is not perfect. 
+Some functions were intentionally left out to save time for more learning.
+For validation, it used both html and JS validation. It was kind of inconsistent,
+but had chances to learn both. It can be improved if this is a real online sign-in.
+For error message handling, it didn't use what was suggested, red border. It uses a
+red color message for each field. 
+
+A lot more to do to make it better, but it's time to move on for new topic for now.

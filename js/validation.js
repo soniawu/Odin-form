@@ -1,15 +1,19 @@
 function validateForm() {
 
     const firstName = document.getElementById("first-name").value;
+    const phone = document.getElementById("phone").value;
     const password = document.getElementById("password").value;
     const confirmPwd = document.getElementById("confirm-pwd").value;
+    
 
     const firstNameErr = document.getElementById("first-name-err");
+    const phoneErr = document.getElementById("phone-err");
     const passwordErr = document.getElementById("password-err");
     const confirmPwdErr = document.getElementById("confirm-pwd-err");
 
 
     firstNameErr.textContent = "";
+    phoneErr.textContent = "";
     passwordErr.textContent = ""; 
     confirmPwdErr.textContent = ""; 
 
@@ -18,14 +22,25 @@ function validateForm() {
 
     /* First name validation :
         - must not be empty
-        - at least 15 letters
+        - at most 15 letters
     */
 
     if (firstName === "") {
         firstNameErr.textContent = "Please enter your first name";
         isValid = false;
     } else if  (firstName.length > 15) {
-        firstNameErr.textContent = "length can not greater than 15 letters";
+        firstNameErr.textContent = "Length can not greater than 15 letters";
+        isValid = false;
+    }
+
+    /* phone validation
+        - XXXXXXXXXX or (XXX)XXX-XXXX or XXX-XXX-XXXX where X is a digit
+        - use regular expression
+    */
+
+    let regex = /^\(?(\d{3})\)?[- ]?(\d{3})[- ]?(\d{4})$/;
+    if (!regex.test(phone)) {
+        phoneErr.textContent = "Enter a valid phone number";
         isValid = false;
     }
 

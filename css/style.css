@@ -21,6 +21,7 @@ body {
     width: 40%;
     height: 700px;
 }
+
 #main-pic>img {
     width: 100%;
     height: 100%;
@@ -109,10 +110,6 @@ legend {
     color: red;
     font-size: 0.8em;
 }
-
-inputr:required:invalid {
-    border-color: red;
-  }
 
 .err-msg {
     padding-top: 2px;
